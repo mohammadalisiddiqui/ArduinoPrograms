@@ -18,31 +18,40 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(a,HIGH);
-  digitalWrite(b,LOW);
-  digitalWrite(c,LOW);
-  digitalWrite(d,HIGH);
-  digitalWrite(e,HIGH);
-  digitalWrite(f,HIGH);
-  digitalWrite(g,HIGH);
-  delay(1000);
-// 2
-    digitalWrite(a,LOW);
-  digitalWrite(b,LOW);
+  digitalWrite(a,LOW);
+  digitalWrite(b,HIGH);
   digitalWrite(c,HIGH);
   digitalWrite(d,LOW);
   digitalWrite(e,LOW);
-  digitalWrite(f,HIGH);
+  digitalWrite(f,LOW);
   digitalWrite(g,LOW);
   delay(1000);
-//    3
-  digitalWrite(a,LOW);
-  digitalWrite(b,LOW);
+    digitalWrite(b,LOW);
   digitalWrite(c,LOW);
-  digitalWrite(d,LOW);
+  delay(500);
+// 2
+  digitalWrite(a,HIGH);
+  digitalWrite(b,HIGH);
+  digitalWrite(c,LOW);
+  digitalWrite(d,HIGH);
   digitalWrite(e,HIGH);
-  digitalWrite(f,HIGH);
+  digitalWrite(g,HIGH);
+  digitalWrite(f,LOW);
+  delay(1000);
+    digitalWrite(d,LOW);
+  digitalWrite(e,LOW);
   digitalWrite(g,LOW);
+   digitalWrite(a,LOW);
+  digitalWrite(b,LOW);
+  delay(500);
+//    3
+  digitalWrite(a,HIGH);
+  digitalWrite(b,HIGH);
+  digitalWrite(c,HIGH);
+  digitalWrite(d,HIGH);
+  digitalWrite(e,LOW);
+  digitalWrite(g,HIGH);
+  digitalWrite(f,LOW);
   delay(1000);
 //  ali sss asas
 
